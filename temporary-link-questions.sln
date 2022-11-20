@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{469D6BCC-14E4-4917-9B60-FD8D9CB67FE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{795357FC-1414-42C3-856D-EDB6A8563A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api\Api.csproj", "{1B224870-3ACF-439D-8DA5-650A53563638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Shared", "Admin.Shared\Admin.Shared.csproj", "{F68595B5-28DB-4BCE-A199-012FA9A5AEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Infra", "Admin.Infra\Admin.Infra.csproj", "{8D473F70-E8C1-4228-9742-38AC334171CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B224870-3ACF-439D-8DA5-650A53563638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B224870-3ACF-439D-8DA5-650A53563638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B224870-3ACF-439D-8DA5-650A53563638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B224870-3ACF-439D-8DA5-650A53563638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68595B5-28DB-4BCE-A199-012FA9A5AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68595B5-28DB-4BCE-A199-012FA9A5AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68595B5-28DB-4BCE-A199-012FA9A5AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68595B5-28DB-4BCE-A199-012FA9A5AEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D473F70-E8C1-4228-9742-38AC334171CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D473F70-E8C1-4228-9742-38AC334171CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D473F70-E8C1-4228-9742-38AC334171CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D473F70-E8C1-4228-9742-38AC334171CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B224870-3ACF-439D-8DA5-650A53563638} = {795357FC-1414-42C3-856D-EDB6A8563A2E}
+		{F68595B5-28DB-4BCE-A199-012FA9A5AEAF} = {469D6BCC-14E4-4917-9B60-FD8D9CB67FE9}
+		{8D473F70-E8C1-4228-9742-38AC334171CB} = {469D6BCC-14E4-4917-9B60-FD8D9CB67FE9}
+	EndGlobalSection
+EndGlobal
